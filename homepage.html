@@ -6,6 +6,9 @@
     <title>Homepage Utazási weblap</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="greece.html">
+    <link rel="stylesheet" href="italy.html">
+    <link rel="stylesheet" href="france.html">
 </head>
 <body>
     <header class="py-3 text-center">
@@ -19,7 +22,6 @@
                         <ul>
                             <li><a href="" title="Home" class="ps-5 text-uppercase">Home</a></li>
                             <li><a href="" title="Destinations" class="px-3">Destinations</a></li>
-                            <li><a href="" title="Weather" class="pe-5">Weather</a></li>
                             <button type="button" class="btn btn-dark rounded-5">Book Now</button>
                         </ul>
                     </nav>
@@ -59,25 +61,37 @@
         </section>
         <section class="py-5">
             <div class="container">
-                <h2 class="fs-1 text-center h2">Top Destinations</h2>
+                <h5 class="fs-1 text-center h2">Top Destinations</h5>
                 <div class="row py-4">
-                    <div class="col-lg-4 bg-body-secondary">
-                        <p class="text-center"><img src="img/kep8.jpg" alt="img" height="250" class="rounded-5"></p>
-                        <p class="fw-bold px-4">France</p>
-                        <p class="px-4">Paris</p>
-                        <p class="text-end"><button type="button" class="btn btn-dark">View</button></p>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="img/kep8.jpg" class="card-img-top" alt="img" height="250">
+                            <div class="card-body">
+                            <h5 class="card-title">France</h5>
+                            <p class="card-text">Paris</p>
+                            <a href="france.html" class="btn btn-dark">View</a>
+                            </div>
+                        </div>    
                     </div>
-                    <div class="col-lg-4 bg-body-secondary">
-                        <p class="text-center"><img src="img/kep2.jpg" alt="img" height="250" class="rounded-5"></p>
-                        <p class="fw-bold px-5">Italy</p>
-                        <p class="px-5">Amalfi Coast</p>
-                        <p class="text-end"><button type="button" class="btn btn-dark">View</button></p>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="img/kep2.jpg" class="card-img-top" alt="img" height="250">
+                            <div class="card-body">
+                            <h5 class="card-title">Italy</h5>
+                            <p class="card-text">Amilfi Coast</p>
+                            <a href="italy.html" class="btn btn-dark">View</a>
+                            </div>
+                        </div>
                     </div>
-                    <div class="col-lg-4 bg-body-secondary">
-                        <p class="text-center"><img src="img/kep3.jpg" alt="img" height="250" width="385" class="rounded-5"></p>
-                        <p class="fw-bold px-3">Greece</p>
-                        <p class="px-3">Santorini</p>
-                        <p class="text-end"><button type="button" class="btn btn-dark">View</button></p>
+                    <div class="col-lg-4">
+                        <div class="card">
+                            <img src="img/kep3.jpg" class="card-img-top" alt="img" height="250">
+                            <div class="card-body">
+                            <h5 class="card-title">Greece</h5>
+                            <p class="card-text">Santorini</p>
+                            <a href="greece.html" class="btn btn-dark">View</a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
