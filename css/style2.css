@@ -1,0 +1,41 @@
+body {
+    font-family: 'Khula';font-size: 22px;
+}
+.color{
+    color: #2B3853;
+}
+.bgcolor{
+    background-color: #2B3853;
+}
+
+.tnone{
+    text-decoration: none;
+    
+}
+
+.custom-card{
+    background: transparent;
+}
+.image-wrapper{
+    border-radius: 24px;
+    overflow: hidden;
+}
+.image-wrapper img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    display: block;
+}
+
+.price-pill{
+    display: inline-block;
+    background: #2B3853;
+    color: #fff;
+    padding: 6px 18px;
+    border-radius: 999px;
+    font-size: 14px;
+}
+
+.tx{
+    font-size: 50px;
+}
